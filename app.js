@@ -72,13 +72,27 @@ function createBox(item) {
     `;
 
     //TODO -- speak event 
+    box.addEventListener("click", () => {
+        setTextMessage(text);
+        speakText();
+
+        //add an active effect
+        box.classList.add("active");
+        setTimeout(() => {
+            box.classList.remove("active")
+        }, 1200);
+    })
 
     mainEl.appendChild(box);
 }
 
+//initialize speech synthesis utterance
+const message = new SpeechSynthesisUtterance();
+
 //store voices
 let voices = [];
 
+//populate select element in HTML with options from Speech Synthesis
 function getVoices() {
     voices = speechSynthesis.getVoices();
 
@@ -90,6 +104,16 @@ function getVoices() {
 
     voiceSelectEl.appendChild(option)
     })
+}
+
+//set text
+function setTextMessage(text) {
+    message.text = text;
+}
+
+//speak the text
+function speakText() {
+    speechSynthesis.speak(message);
 }
 
 //voice is changed
