@@ -135,6 +135,12 @@ closeBtn.addEventListener("click", ()=>{
 });
 
 //change voice from select
-voiceSelectEl.addEventListener("change", setVoice)
+voiceSelectEl.addEventListener("change", setVoice);
+
+//read text from text area
+readBtn.addEventListener("click", () => {
+    setTextMessage(textAreaEl.value);
+    speakText();
+})
 
 getVoices();
