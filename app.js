@@ -116,6 +116,11 @@ function speakText() {
     speechSynthesis.speak(message);
 }
 
+//set foice to use to read text
+function setVoice(e) {
+    message.voice = voices.find(voice => voice.name === e.target.value);
+}
+
 //voice is changed
 speechSynthesis.addEventListener("voiceschanged", getVoices);
 
@@ -128,5 +133,8 @@ toggleBtn.addEventListener("click", ()=>{
 closeBtn.addEventListener("click", ()=>{
     document.querySelector("#text-box").classList.remove("show")
 });
+
+//change voice from select
+voiceSelectEl.addEventListener("change", setVoice)
 
 getVoices();
