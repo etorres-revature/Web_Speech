@@ -1,9 +1,9 @@
 //global variables to grab DOM elements
 const mainEl = document.querySelector("main");
-const voicesSelectEl = document.querySelector("#voices");
+const voiceSelectEl = document.querySelector("#voices");
 const textAreaEl = document.querySelector("#text-to-speech");
 const readBtn = document.querySelector("#read-text");
-const toggleBtn = document.querySelector("#toggle-btn");
+const toggleBtn = document.querySelector(".toggle-btn");
 const closeBtn = document.querySelector("#close-btn");
 
 const data = [
@@ -76,4 +76,33 @@ function createBox(item) {
     mainEl.appendChild(box);
 }
 
+//store voices
+let voices = [];
 
+function getVoices() {
+    voices = speechSynthesis.getVoices();
+
+    voices.forEach(voice => {
+    const option = document.createElement("option");
+
+    option.value = voice.name;
+    option.innerText = `${voice.name} ${voice.lang}`
+
+    voiceSelectEl.appendChild(option)
+    })
+}
+
+//voice is changed
+speechSynthesis.addEventListener("voiceschanged", getVoices);
+
+//event listeners
+//toggle text box
+toggleBtn.addEventListener("click", ()=>{
+    document.querySelector("#text-box").classList.toggle("show")
+});
+//close button on text box
+closeBtn.addEventListener("click", ()=>{
+    document.querySelector("#text-box").classList.remove("show")
+});
+
+getVoices();
