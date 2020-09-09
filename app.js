@@ -1,3 +1,6 @@
+//Web Speech API
+//
+
 //global variables to grab DOM elements
 const mainEl = document.querySelector("main");
 const voiceSelectEl = document.querySelector("#voices");
