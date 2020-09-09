@@ -1,4 +1,4 @@
-# [Web_Speech](https://etorres-revature.github.io/Web_Speech/)
+# [Web Speech](https://etorres-revature.github.io/Web_Speech/)
 
 The [Web Speech](https://etorres-revature.github.io/Web_Speech/) app utilizes the experimental technology in the [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API) to incoprate voice data into web apps in two ways: 
  * SpeechSynthesis (Text-to-Speech) - allows programs to read out their text content. 
@@ -32,7 +32,7 @@ Separation of formating and content also makes it feasible to present the same m
 
 *JavaScript* content borrowed from <a target="_blank" rel="noopener noreferrer">[this page](https://en.wikipedia.org/wiki/JavaScript).</a>
 
-#### "speech_balloon: Web Speech API :speech_balloon:
+#### :speech_balloon: Web Speech API :speech_balloon:
 
 **Web Speech API** enables you to incorporate voice data into web apps.  It has two parts: SpeechSynthesis (Text-to-Speech) and SpeechRecognition (Asynchronouse Speech Recognition).  Speedch Reognition provides ability to recognize voice context frm an audio input and Speech Synthesis allows programs to read out their text content. 
 
@@ -40,7 +40,7 @@ Follow this linke for more information about the [Web Speech API](https://develo
 
 ## Author :sunglasses:
 
-Project coded by :green_heart: Eric D. Torres :green_heart: with help from [Traversy Media](https://traversymedia.com/) ["20 Web Projects with Vanilla Javascript"](https://vanillawebprojects.com/).  
+Project coded by :green_heart: Eric D. Torres :green_heart: with help from [Traversy Media](https://traversymedia.com/) - ["20 Web Projects with Vanilla Javascript"](https://vanillawebprojects.com/).  
 
 The author can be reached at etorresnotary@gmail.com. 
 
