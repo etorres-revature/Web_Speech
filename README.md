@@ -1,12 +1,12 @@
 # [Web Speech](https://etorres-revature.github.io/Web_Speech/)
 
-The [Web Speech](https://etorres-revature.github.io/Web_Speech/) app utilizes the experimental technology in the [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API) to incoprate voice data into web apps in two ways: 
+The [Web Speech](https://etorres-revature.github.io/Web_Speech/) app utilizes the experimental technology in the [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API) to incorporate voice data into web apps in two ways: 
  * SpeechSynthesis (Text-to-Speech) - allows programs to read out their text content. 
  * SpeechRecognition (Asynchronous Speech Recognition) - provides ability to recognize voice context form audio input and respond appropriately. 
 
-The Web Speech app displays photos with associated text displayed beneath each phoot.  When a user clicks on the photo, the Web Speech API enunciates the text. 
+The Web Speech app displays photos with associated text displayed beneath each photo.  When a user clicks on the photo, the Web Speech API enunciates the text. 
 
-The Web Speech app also has a text box where users can type in messages and have them repeated by their device.  The text box has a select box that is dynamically generated with the langugaes/dialiects that are available in the particular browser in which the Web Speech app is being used. 
+The Web Speech app also has a text box where users can type in messages and have them repeated by their device.  The text box has a select box that is dynamically generated with the languages/dialects that are available in the particular browser in which the Web Speech app is being used. 
 
 Please enjoy the [Web Speech](https://etorres-revature.github.io/Web_Speech/). E-mail me with any feature update suggestions.
 
@@ -14,7 +14,7 @@ Please enjoy the [Web Speech](https://etorres-revature.github.io/Web_Speech/). E
 
 #### :memo: HTML5 :memo:
 
-**HTML5** is a markup language used for structuring and presenting content on the World Wide Web.  The goals are to improve the language with support for the latest multi-media and other new features; to keep the language both easily readable by humans and consistently understood by computers and devices; and to remain backward compatible to older software.  Many new symantic features are included.
+**HTML5** is a markup language used for structuring and presenting content on the World Wide Web.  The goals are to improve the language with support for the latest multi-media and other new features; to keep the language both easily readable by humans and consistently understood by computers and devices; and to remain backward compatible to older software.  Many new symantec features are included.
 
 *HTML5* content borrowed from <a target="_blank" rel="noopener noreferrer">[this page](https://en.wikipedia.org/wiki/HTML5).</a>
 
@@ -22,7 +22,7 @@ Please enjoy the [Web Speech](https://etorres-revature.github.io/Web_Speech/). E
 
 **Cascading Style Sheets (CSS)** is a stylesheet language used for describing the presentation of a document written in a markup language (such as HTML5).  CSS is designed to enable the separation of presentation and content; including layout, colors, and fonts.  This separation improves content accessibility to provide more flexibility and control in the specification of presentation characteristics, enabling multiple web pages to share formatting by specifying relevant CSS in a separate file, which reduces complexity and repetition in the structural content (HTML), as well as enabling the file to be cached to improve the page load speed between the pages that share the file and its formatting.
 
-Separation of formating and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice, and on Braille-based tactile devices. 
+Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice, and on Braille-based tactile devices. 
 
 *CSS* content borrowed from <a target="_blank" rel="noopener noreferrer">[this page](https://en.wikipedia.org/wiki/Cascading_Style_Sheets).</a>
 
@@ -34,7 +34,7 @@ Separation of formating and content also makes it feasible to present the same m
 
 #### :speech_balloon: Web Speech API :speech_balloon:
 
-**Web Speech API** enables you to incorporate voice data into web apps.  It has two parts: SpeechSynthesis (Text-to-Speech) and SpeechRecognition (Asynchronouse Speech Recognition).  Speedch Reognition provides ability to recognize voice context frm an audio input and Speech Synthesis allows programs to read out their text content. 
+**Web Speech API** enables you to incorporate voice data into web apps.  It has two parts: SpeechSynthesis (Text-to-Speech) and SpeechRecognition (Asynchronous Speech Recognition).  Speech Recognition provides ability to recognize voice context frm an audio input and Speech Synthesis allows programs to read out their text content. 
 
 Follow this linke for more information about the [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
 
